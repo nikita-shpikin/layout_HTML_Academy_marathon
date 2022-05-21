@@ -263,4 +263,16 @@ body * {
   margin-top: 20px;
   text-align: center;
   line-height: 30px;
+}
+
+.review {
+  height: 790px;
+  background-color: #efe6e4;
+  padding-top: 65px;
+}
+.review__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

@@ -303,3 +303,16 @@ body * {
     }
   }
 }
+
+.review {
+  height: 790px;
+  background-color: #efe6e4;
+  padding-top: 65px;
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+}
