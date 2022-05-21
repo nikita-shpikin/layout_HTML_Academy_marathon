@@ -219,8 +219,57 @@ body * {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  color: #533738;
-  position: relative;
+}
+
+.team {
+  padding-top: 50px;
+  height: 1000px;
+  background-color: #e2c4ba;
+}
+.team__title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.team-staff {
+  margin: 42px auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-staff__text {
+  margin-top: 10px;
+  max-width: 320px;
+  line-height: 30px;
+}
+.team-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-wrapper__circle {
+  padding: 20px 26px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #8D7370;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.team-wrapper__text {
+  max-width: 285px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
     </style>
     <title>HTML Academy marathon 3.0</title>
@@ -287,24 +336,59 @@ body * {
               </div>
               <div class="works-wrapper-image">
                 <div class="works-wrapper-info"> 
-                  <h2 class="works-wrapper-info__title">Квартира-студия 30 кв.м.</h2>
-                  <p class="works-wrapper-info__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                  <h2 class="works-wrapper-info__title">Квартира 100 кв.м.</h2>
+                  <p class="works-wrapper-info__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dignissimos, nulla dolores voluptate deserunt possimus, similique placeat corrupti enim eveniet recusandae? Perferendis magnam voluptatem atque necessitatibus libero omnis debitis perspiciatis?</p>
                 </div>
               </div>
               <div class="works-wrapper-image">
                 <div class="works-wrapper-info"> 
-                  <h2 class="works-wrapper-info__title">Квартира-студия 30 кв.м.</h2>
-                  <p class="works-wrapper-info__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.      </p>
+                  <h2 class="works-wrapper-info__title">Квартира 130 кв.м.</h2>
+                  <p class="works-wrapper-info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod consectetur, ut dicta dolores esse aspernatur, fugiat architecto consequuntur nobis recusandae saepe ipsam voluptatibus similique velit labore possimus, necessitatibus maxime!      </p>
                 </div>
               </div>
               <div class="works-wrapper-image">            
                 <div class="works-wrapper-info"> 
-                  <h2 class="works-wrapper-info__title">Квартира-студия 30 кв.м.</h2>
-                  <p class="works-wrapper-info__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.          </p>
+                  <h2 class="works-wrapper-info__title">Квартира-студия 50 кв.м.</h2>
+                  <p class="works-wrapper-info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur modi nemo rerum assumenda voluptatum corrupti, hic excepturi sit provident at laudantium ducimus aperiam officiis fuga amet! Soluta vero in et.          </p>
                 </div>
               </div>
             </div>
             <h2 class="works__item"> <a href="#">Смотреть ещё <img src="../images/works/стрелки.svg" alt="стрелка"></a></h2>
+          </div>
+        </section>
+        <section class="team" id="2"> 
+          <div class="container">
+            <h1 class="team__title">Команда</h1>
+            <div class="team-staff"> 
+              <div><img src="../images/team/one.png" alt="Maria">
+                <p class="team-staff__text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</p>
+              </div>
+              <div><img src="../images/team/two.png" alt="Sasha">
+                <p class="team-staff__text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.    </p>
+              </div>
+              <div><img src="../images/team/three.png" alt="Kate">
+                <p class="team-staff__text">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обсутроить дом так, чтобы вам понравилось.</p>
+              </div>
+            </div>
+            <h1 class="team__title">Как мы работаем</h1>
+            <div class="team-wrapper">
+              <div> 
+                <div class="team-wrapper__circle">1</div>
+                <p class="team-wrapper__text">Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.</p>
+              </div>
+              <div> 
+                <div class="team-wrapper__circle">2</div>
+                <p class="team-wrapper__text">Подбираем мебель, текстиль, аксессуры. Делаем 3D-зуализацию.</p>
+              </div>
+              <div> 
+                <div class="team-wrapper__circle">3</div>
+                <p class="team-wrapper__text">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</p>
+              </div>
+              <div> 
+                <div class="team-wrapper__circle">4    </div>
+                <p class="team-wrapper__text">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p>
+              </div>
+            </div>
           </div>
         </section>
       </main>
