@@ -1,0 +1,26 @@
+.header {
+  background: url(../images/header/background-header.png);
+  height: 715px;
+  background-size: cover;
+
+  &-content {
+    margin-top: 91px;
+    margin-left: 185px;
+
+    &__title {
+      font-size: 50px;
+      max-width: 500px;
+      line-height: 62px;
+    }
+
+    &__text {
+      margin-top: 24px;
+      max-width: 406px;
+      line-height: 30px;
+    }
+
+    &__btn {
+      margin-top: 21px;
+    }
+  }
+}
