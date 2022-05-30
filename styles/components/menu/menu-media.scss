@@ -1,0 +1,27 @@
+@media screen and (max-width: 1240px) {
+  .menu {
+
+    &-logo {
+      display: none;
+    }
+
+    &-nav {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .menu {
+    justify-content: space-evenly;
+    padding: 0;
+
+    &-logo {
+      display: flex;
+    }
+
+    &-nav {
+      display: none;
+    }
+  }
+}
