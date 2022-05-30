@@ -39,3 +39,9 @@ body * {
   line-height: 24px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+  .button {
+    width: 280px;
+  }
+}
