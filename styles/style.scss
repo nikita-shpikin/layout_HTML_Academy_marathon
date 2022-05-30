@@ -1,6 +1,6 @@
 @import 'components/header/header';
 @import 'components/menu/menu';
-@import 'components/about';
+@import 'components/about/about';
 @import 'components/works';
 @import 'components/team';
 @import 'components/review';
@@ -42,6 +42,6 @@ body * {
 
 @media screen and (max-width: 750px) {
   .button {
-    width: 280px;
+    width: 268px;
   }
 }
