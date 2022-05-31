@@ -1,27 +1,2 @@
-.footer {
-  height: 105px;
-  background-color: #efe6e4;
-
-  &-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  &-contact {
-    max-width: 655px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    &__number {
-      cursor: pointer;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 30px;
-      text-decoration: none;
-      color: #533738;
-    }
-  }
-}
+@import './footer-basic.scss';
+@import './footer-media.scss';

@@ -1,0 +1,46 @@
+.review {
+  height: 790px;
+  background-color: #efe6e4;
+  padding-top: 65px;
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+
+  &-wrapper {
+    margin: 40px auto;
+    height: 570px;
+    max-width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__arrow {
+      height: 72px;
+      width: 72px;
+      background: #CC8B86;
+      border-radius: 50%;
+      position: relative;
+      padding: 27px 19px;
+      cursor: pointer;
+    }
+
+    &__arrow:last-child {
+      transform: rotate(0.5turn);
+    }
+
+    &-content {
+      max-width: 405px;
+    }
+
+    &-images {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
