@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+  .footer {
+
+    &-contact {
+      justify-content: center;
+    }
+
+    & span {
+      display: none;
+    }
+  }
+}
