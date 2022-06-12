@@ -3,6 +3,11 @@
   background-color: #efe6e4;
   padding-top: 65px;
 
+  &-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   &__title {
     text-align: center;
     font-size: 40px;

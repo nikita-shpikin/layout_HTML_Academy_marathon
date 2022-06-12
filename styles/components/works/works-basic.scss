@@ -67,14 +67,14 @@
         font-size: 30px;
         line-height: 37px;
         text-align: center;
-        color: #FFFFFF;
+        color: $color-white;
       }
 
       &__text {
         max-width: 418px;
         margin: 0 auto;
         line-height: 30px;
-        color: #FFFFFF;
+        color: $color-white;
       }
     }
   }

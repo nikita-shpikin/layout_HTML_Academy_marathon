@@ -30,7 +30,7 @@
       }
 
       &__text {
-        color: #fff;
+        color: $color-white;
 
         &:last-child {
           display: none;
@@ -61,6 +61,8 @@
       height: 350px;
 
       &__text {
+        filter: drop-shadow(2px 4px 6px black);
+        text-align: center;
         font-size: 16px;
       }
     }

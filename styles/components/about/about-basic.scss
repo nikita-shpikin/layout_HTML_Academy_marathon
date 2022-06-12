@@ -35,7 +35,7 @@
 
       &__num {
         text-align: center;
-        color: #FFFFFF;
+        color: $color-white;
         font-size: 50px;
         line-height: 62px;
       }
@@ -45,7 +45,7 @@
         font-size: 30px;
         line-height: 37px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $color-white;
       }
     }
   }
